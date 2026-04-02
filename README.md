@@ -30,7 +30,7 @@ A robust, scalable, and responsive Full-Stack web application built with **C# (.
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/irfan-mpan30/EnterpriseAssetAPI.git](https://github.com/irfan-mpan30/EnterpriseAssetAPI.git)
+   git clone https://github.com/irfan-mpan30/EnterpriseAssetAPI.git
 2. Navigate to the project directory:
    ```bash
    cd EnterpriseAssetAPI
