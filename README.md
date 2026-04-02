@@ -3,8 +3,7 @@
 A robust, scalable, and responsive Full-Stack web application built with **C# (.NET 10)** for the backend and **Vanilla JavaScript + Bootstrap 5** for the frontend. This system allows organizations to track, update, and monitor their physical assets such as IT equipment, facility infrastructure, and corporate vehicles efficiently.
 
 ## 📸 Dashboard Preview
-*<img width="2636" height="1514" alt="localhost" src="https://github.com/user-attachments/assets/1f6ddcb9-7a73-4ae9-8b0f-e2ba4280c14f" />
-*
+<img width="2636" height="1514" alt="localhost" src="https://github.com/user-attachments/assets/1f6ddcb9-7a73-4ae9-8b0f-e2ba4280c14f" />
 
 ## 🚀 Tech Stack
 
