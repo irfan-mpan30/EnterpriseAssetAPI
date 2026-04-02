@@ -31,6 +31,14 @@ namespace EnterpriseAssetAPI.Controllers
             return Ok(new { Message = "Asset Berhasil Didaftarkan ke Database!", Data = newAsset });
         }
 
+        [HttpPost("bulk")]
+        public async Task<IActionResult> PostBulk(List<Asset> newAssets)
+        {
+            _context.Assets.AddRange(newAssets);
+            await _context.SaveChangesAsync(); 
+            return Ok(new { Message = $"{newAssets.Count} Aset Berhasil Didaftarkan Sekaligus!" });
+        }
+
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, Asset updatedAsset)
         {

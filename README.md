@@ -1,33 +1,47 @@
-# Enterprise Asset Management API
+# Full-Stack Enterprise Asset Management System
 
-A robust, scalable RESTful API built with **C#** and **ASP.NET Core 10** to manage enterprise assets efficiently. This system allows organizations to track, update, and monitor their physical assets such as IT equipment, facility infrastructure, and corporate vehicles.
+A robust, scalable, and responsive Full-Stack web application built with **C# (.NET 10)** for the backend and **Vanilla JavaScript + Bootstrap 5** for the frontend. This system allows organizations to track, update, and monitor their physical assets such as IT equipment, facility infrastructure, and corporate vehicles efficiently.
+
+## 📸 Dashboard Preview
+*(Add your screenshot here by dragging and dropping an image file when editing on GitHub)*
 
 ## 🚀 Tech Stack
+
+**Back-End:**
 * **Framework:** ASP.NET Core Web API (.NET 10)
 * **Language:** C#
 * **ORM:** Entity Framework Core (EF Core)
 * **Database:** SQLite (for persistent local storage)
 * **Documentation:** Swagger UI
 
+**Front-End:**
+* **UI Framework:** Bootstrap 5 & Bootstrap Icons
+* **Language:** HTML5, CSS3, Vanilla JavaScript
+* **Architecture:** Served as static files via ASP.NET Core `wwwroot` (Monolithic Architecture)
+
 ## ⚙️ Key Features
-* **Full CRUD Operations:** Create, Read, Update, and Delete asset records.
-* **Persistent Storage:** Data is securely saved using EF Core and SQLite.
-* **Separation of Concerns:** Implemented clean architecture using Models and Controllers.
-* **Asynchronous Programming:** Utilized `async/await` for optimal performance.
+* **Unified Full-Stack Experience:** Frontend and Backend are smoothly served from a single, integrated .NET server.
+* **Full CRUD Operations:** Create, Read, Update, and Delete asset records seamlessly across the UI and database.
+* **Bulk Insert Capability:** Efficiently add multiple asset records at once using the custom `/bulk` endpoint.
+* **Modern Client-Side Pagination:** Fast and responsive data slicing to ensure a clean UI without overloading the server.
+* **Dynamic Connection Sensor:** Real-time UI feedback indicating whether the API server is online or offline.
 
 ## 🛠️ How to Run Locally
 
 1. Clone this repository:
-   ```bash
+```bash
    git clone https://github.com/irfan-mpan30/EnterpriseAssetAPI.git
 
 2. Navigate to the project directory:
-   ```bash
+```bash
    cd EnterpriseAssetAPI
 
 3. Run the application:
-   ```bash
+```bash
    dotnet run
 
-4. Open your browser and navigate to the Swagger UI to test the endpoints:
-http://localhost:xxxx/swagger 
+4. Access the Application in your browser:
+
+🖥️ Web Dashboard (Frontend): Navigate to http://localhost:<YOUR_PORT> (e.g., http://localhost:0000)
+
+⚙️ API Documentation (Swagger): Navigate to http://localhost:<YOUR_PORT>/swagger
