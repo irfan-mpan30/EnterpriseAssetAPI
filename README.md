@@ -19,7 +19,7 @@ A robust, scalable RESTful API built with **C#** and **ASP.NET Core 10** to mana
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/irfan-mpan30/EnterpriseAssetAPI.git](https://github.com/irfan-mpan30/EnterpriseAssetAPI.git)
+   git clone https://github.com/irfan-mpan30/EnterpriseAssetAPI.git
 
 2. Navigate to the project directory:
    ```bash
