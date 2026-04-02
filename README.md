@@ -3,7 +3,8 @@
 A robust, scalable, and responsive Full-Stack web application built with **C# (.NET 10)** for the backend and **Vanilla JavaScript + Bootstrap 5** for the frontend. This system allows organizations to track, update, and monitor their physical assets such as IT equipment, facility infrastructure, and corporate vehicles efficiently.
 
 ## 📸 Dashboard Preview
-*(Add your screenshot here by dragging and dropping an image file when editing on GitHub)*
+*<img width="2636" height="1514" alt="localhost" src="https://github.com/user-attachments/assets/1f6ddcb9-7a73-4ae9-8b0f-e2ba4280c14f" />
+*
 
 ## 🚀 Tech Stack
 
@@ -37,8 +38,8 @@ A robust, scalable, and responsive Full-Stack web application built with **C# (.
 3. Initialize the Database:
    Since the database file is ignored by Git, you need to apply migrations to create the SQLite schema:
    ```bash
-   dotnet ef database update\
-   **Note: If you don't have EF Core tools installed
+   dotnet ef database update
+   *Note: If you don't have EF Core tools installed
 4. Run the application:
    ```bash
    dotnet run
