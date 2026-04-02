@@ -37,7 +37,7 @@ A robust, scalable, and responsive Full-Stack web application built with **C# (.
 3. Initialize the Database:
    Since the database file is ignored by Git, you need to apply migrations to create the SQLite schema:
    ```bash
-   dotnet ef database update
+   dotnet ef database update---
    Note: If you don't have EF Core tools installed...
 4. Run the application:
    ```bash
