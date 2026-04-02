@@ -38,10 +38,10 @@ A robust, scalable, and responsive Full-Stack web application built with **C# (.
    Since the database file is ignored by Git, you need to apply migrations to create the SQLite schema:
    ```bash
    dotnet ef database update
-   Note: If you don't have EF Core tools installed, run: dotnet tool install --global dotnet-ef
+Note: If you don't have EF Core tools installed, run: dotnet tool install --global dotnet-ef
 4. Run the application:
    ```bash
    dotnet run
 5. Access the Application in your browser:
-🖥️ Web Dashboard (Frontend): Navigate to http://localhost:<YOUR_PORT> (e.g., http://localhost:0000)
-⚙️ API Documentation (Swagger): Navigate to http://localhost:<YOUR_PORT>/swagger
+🖥️ Web Dashboard (Frontend): Navigate to http://localhost:5222 (e.g., http://localhost:5222)
+⚙️ API Documentation (Swagger): Navigate to http://localhost:5222/swagger
