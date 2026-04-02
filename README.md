@@ -30,5 +30,4 @@ A robust, scalable RESTful API built with **C#** and **ASP.NET Core 10** to mana
    dotnet run
 
 4. Open your browser and navigate to the Swagger UI to test the endpoints:
-   ```bash
-   Open your browser and navigate to the Swagger UI to test the endpoints:
+http://localhost:xxxx/swagger 
