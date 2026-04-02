@@ -1,4 +1,4 @@
-const apiUrl = 'http://localhost:5222/api/Assets'; 
+const apiUrl = 'http://localhost:0000/api/Assets'; 
 let currentAssets = []; 
 
 let currentPage = 1;

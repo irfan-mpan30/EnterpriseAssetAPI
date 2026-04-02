@@ -29,19 +29,14 @@ A robust, scalable, and responsive Full-Stack web application built with **C# (.
 ## 🛠️ How to Run Locally
 
 1. Clone this repository:
-```bash
-   git clone https://github.com/irfan-mpan30/EnterpriseAssetAPI.git
-
+   ```bash
+   git clone [https://github.com/irfan-mpan30/EnterpriseAssetAPI.git](https://github.com/irfan-mpan30/EnterpriseAssetAPI.git)
 2. Navigate to the project directory:
-```bash
+   ```bash
    cd EnterpriseAssetAPI
-
 3. Run the application:
-```bash
+   ```bash
    dotnet run
-
 4. Access the Application in your browser:
-
 🖥️ Web Dashboard (Frontend): Navigate to http://localhost:<YOUR_PORT> (e.g., http://localhost:0000)
-
 ⚙️ API Documentation (Swagger): Navigate to http://localhost:<YOUR_PORT>/swagger
